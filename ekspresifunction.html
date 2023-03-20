@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekspresi function</title>
+</head>
+<body>
+    <script>
+        //awalnya function myFuction diganti jadi ekspresi
+        // fungsiPerkalian jadi deklarasi
+        const fungsiPerkalian = function(){
+            let angka1 = prompt ("Masukkan angka 1");
+            let angka2 = prompt ("Masukkan angka 2");
+
+            let hasilPerkalian = angka1 * angka2;
+            return hasilPerkalian; // dengan return mengembalikan hasil perkaliannya ke fungsi
+        }
+        // //menampilkan hasil perkalian yang dikembalikan
+        document.writeln(fungsiPerkalian());
+
+        // const fungsiPerkalian = function(angka1, angka2){  ini parameter
+        //     let hasilPerkalian = angka1 * angka2;
+        //     return hasilPerkalian; // dengan return mengembalikan hasil perkaliannya ke fungsi
+        // }
+        // //menampilkan hasil perkalian yang dikembalikan
+        // document.writeln(fungsiPerkalian(10,20)); apabila nilai angka 1 dan 2 nya ada 4 parameter maka jadi rest parameter
+    </script>
+</body>
+</html>

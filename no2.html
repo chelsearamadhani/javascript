@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nomer 2</title>
+</head>
+<body>
+    <script>
+        let siswa1 = prompt("masukkan tinggi siswa 1");
+        let siswa2 = prompt("masukkan tinggi siswa 2");
+        let siswa3 = prompt("masukkan tinggi siswa 3");
+        if (siswa1 >= siswa2 && siswa1 >=siswa3 && siswa2 >= siswa3){
+            document.writeln(`urutan siswa tertingi : <br> ${siswa1} <br> ${siswa2} <br> ${siswa3} `)
+        }
+        else if
+            (siswa2 > siswa1 && siswa2 > siswa3 && siswa1 > siswa3 ){
+            document.writeln(`urutan siswa dari tinggi badan tertinggi : <br> ${siswa2} <br> ${siswa1} <br> ${siswa3}`)
+        }
+        else if
+            (siswa3 > siswa1 && siswa3 > siswa2 && siswa1 > siswa2){
+            document.writeln (` urutan siswa dari tinggi badan tertinggi : <br> ${siswa3} <br> ${siswa1} <br> ${siswa2}`)
+            }
+        else if 
+            (siswa1 < siswa2 && siswa1 < siswa3 && siswa3 > siswa2 ){
+            document.writeln (` urutan siswa dari tinggi badan tertinggi : <br>${siswa3} <br> ${siswa2} <br> ${siswa1}`)
+            }
+        else if
+            (siswa2 < siswa1 && siswa2 < siswa3 && siswa1 < siswa3){
+            document.writeln(`urutan siswa dari tinggi badan tertinggi : <br> ${siswa3} <br> ${siswa1} <br> ${siswa2}`)
+            }
+        else if
+            (siswa3 < siswa1 && siswa3 < siswa2 && siswa2 < siswa1){
+            document.writeln(`urutan siswa dari tinggi badan tertinggi :  <br> ${siswa1} <br> ${siswa2} <br> ${siswa3}`)
+            }
+        else if
+            (siswa1 >siswa2 && siswa1 > siswa3 && siswa2 < siswa3){
+            document.writeln(`urutan siswa dari tinggi badan tertinggi :  <br> ${siswa1} <br> ${siswa3} <br> ${siswa2}`)  
+            }
+        else if 
+            (siswa1 < siswa2 && siswa3 > siswa1 && siswa2 > siswa3 ){
+            document.writeln(`urutan siswa dari tinggi badan tertinggi :  <br> ${siswa2} <br> ${siswa3} <br> ${siswa1}`)  
+            }
+        
+
+        
+    </script> 
+</body>
+</html>

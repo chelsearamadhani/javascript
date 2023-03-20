@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nan function javascript</title>
+</head>
+<body>
+    <script>
+        document.writeln(parseInt(2.5), "<br>");
+        document.writeln(parseInt("sule"), "<br>");  //karna teks jadi ga kebaca, kebacanya nan
+        document.writeln(parseFloat("2.5ini")) //jadinya 2.5 
+
+        // let name = "chen hi";
+        // let age = 15;
+        // document.writeln("nama saya adalah :" + name, "umur saya adalah :" + age ) // awalnya begini tanpa string template
+
+        // let name = "chen hi";
+        // let age = 15;
+        // document.writeln(`nama saya :${name} <br> umur saya :${age}`)//string template
+
+        //string template dalam bentuk ekspresi
+        //deklarasiin
+        let name = "chen hi";
+        let age = 17 //kalo number gausah pake string
+        let address = "pademangan" //kalo kata pake string
+        //taro templatenya
+        const template = `nama : ${name} umur : ${age} alamat :${address}`;
+        //kita tampilin
+        document.writeln(template, "<br>");
+
+        //multiline string
+        // let isi = "nama saya chenhi -> menggunakan string gabisa
+        // yang suka coding"
+        let isi = `nama saya sabilulama
+        hobi saya ngaji di gereja
+        pake sorban`
+
+        document.writeln("<pre>"); //pre kayak br
+        document.writeln(isi);
+
+    </script>
+</body>
+</html>
